@@ -34,7 +34,7 @@ export default async function Navbar() {
           Home
         </Link>
         <Link
-          href="/#userTestimonials"
+          href={"/userTestimonials"}
           className="text-navbarSecondary hover:text-primary font-semibold transition md:block hidden dark:text-white"
           style={{ scrollBehavior: "smooth" }}
         >
